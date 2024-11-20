@@ -14,6 +14,7 @@ function App() {
         </div>
       </section>
       <div className="columns">
+        <div className="column"></div>
         <div className="column">
           <ProfileCard
             title="Alpha Zero"
@@ -26,7 +27,7 @@ function App() {
           <ProfileCard
             title="Stockfish"
             image={StockFishImage}
-            text="Stockfish is currently the strongest chess engine available to the public. As an open-source engine, an entire community of people is helping to develop and improve it. Like many others, Stockfish has included neural networks in its code to make even better evaluations of chess positions."
+            text="Stockfish is currently the strongest chess engine available to the public. Like many others, Stockfish has included neural networks in its code to make even better evaluations of chess positions."
             link="https://stockfishchess.org/"
           />
         </div>
@@ -46,6 +47,7 @@ function App() {
             link="https://komodochess.com/"
           />
         </div>
+        <div className="column"></div>
       </div>
     </>
   );
